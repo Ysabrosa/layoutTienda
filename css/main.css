@@ -194,11 +194,13 @@ ul.lista-productos li p span{
 }
 
 .boton{
-    background-color:  #ff4d4d;
+    
+    background-color:white;
+    border:1px solid #ff4d4d;
     padding: 10px 40px;
     display: inline-block;
     margin-top: 2%;
-    color: white;
+    color: #ff4d4d;
     border-radius: 3px;
     text-decoration: none;
     font-size: 20px;
@@ -206,9 +208,16 @@ ul.lista-productos li p span{
     font-weight: bold;
     letter-spacing: 2px;
     transition: .3s all ease;
-    
+    transform-style: preserve-3d;
 }
 
+
+.boton:hover{
+   background-color: #ff4d4d;
+   color: white;
+   
+
+}
 
 .nosotros{
     border-radius: 5px;
