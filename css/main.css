@@ -175,7 +175,7 @@ ul.lista-productos li img{
     }
 
 ul.lista-productos li img:hover{
-border:2px dashed #3399ff ;
+border:1.5px dashed #3399ff ;
 }
 
 ul.lista-productos li p{
