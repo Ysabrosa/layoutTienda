@@ -137,6 +137,12 @@ header img{
     width: 80%;
 }
 
+    .lista-productos:after{
+        content:'';
+        display: block;
+        clear: both;
+    }
+
 .productos img{
     width: 80%;
 
@@ -163,13 +169,13 @@ ul.lista-productos li:nth child(2n+1){
 
 ul.lista-productos li img{
     border-radius: 5px;
-    border: 2px solid rgba(255, 102, 102,.8);
+    border: 1px solid #3399ff;
     transition: .3s all ease;
 
     }
 
 ul.lista-productos li img:hover{
-border:3px solid rgba(255, 51, 51,.8);
+border:2px dashed #3399ff ;
 }
 
 ul.lista-productos li p{
@@ -203,6 +209,12 @@ ul.lista-productos li p span{
 .boton:hover{
    background-color: black;
 }
+
+.nosotros{
+    color: white;
+    background-color: #3399ff;
+}
+
 
 
 
