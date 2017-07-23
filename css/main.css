@@ -169,7 +169,7 @@ ul.lista-productos li:nth child(2n+1){
 
 ul.lista-productos li img{
     border-radius: 5px;
-    border: 1px solid #3399ff;
+    border: 1px dashed #3399ff;
     transition: .3s all ease;
 
     }
@@ -211,11 +211,30 @@ ul.lista-productos li p span{
 }
 
 .nosotros{
+    border-radius: 5px;
+    padding-top: 2%;
+    text-align: center;
     color: white;
     font-size: 1.5em;
-    background-color: #3399ff;
+    background-color:rgba(51, 153, 255,.9);
+    padding-bottom: 2%;
+}
+.nosotros li{
+
+    display: inline-block;
+    color: white;
+    padding: 10px;
 }
 
+.nosotros li a{
+    color: white;
+    transition: all  .3s ease;
+    font-size: 1.3em;
+}
+
+.nosotros li a:hover{
+    font-size: 1.5em;
+}
 
 
 
