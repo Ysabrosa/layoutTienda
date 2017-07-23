@@ -106,7 +106,7 @@ html{
 }
 body{
     font-family: "Segoe Ui light";
-    background-color: rgba(197, 135, 135,.8);
+    background-color: white;
 }
 
 header{
@@ -121,6 +121,7 @@ header{
 }
 
 h2{
+    font-size: 1.8em;
     text-align: center;
     text-transform: uppercase;
     margin: 30px 0;
@@ -163,6 +164,7 @@ ul.lista-productos li:nth child(2n+1){
 ul.lista-productos li img{
     border-radius: 5px;
     border: 2px solid rgba(255, 102, 102,.8);
+    transition: .3s all ease;
 
     }
 
@@ -170,6 +172,37 @@ ul.lista-productos li img:hover{
 border:3px solid rgba(255, 51, 51,.8);
 }
 
+ul.lista-productos li p{
+    font-size:20px;
+    letter-spacing: 2px;
+    margin-top: 1%;
+}
+
+ul.lista-productos li p span{
+    font-size: 25px;
+    color:#ff4d4d;
+    font-weight: bold;
+}
+
+.boton{
+    background-color:  #ff4d4d;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 2%;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: .3s all ease;
+
+}
+
+.boton:hover{
+   background-color: black;
+}
 
 
 
