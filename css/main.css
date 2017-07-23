@@ -122,13 +122,11 @@ header{
 
 h2{
 
-    
     text-align: center;
     text-transform: uppercase;
     margin: 30px 0;
     font-size: 2.8em;
     font-family: 'Dosis', sans-serif;
-    
     text-shadow: 3px 0px 0px rgba(145, 193, 255, 1);
     
 }
@@ -208,29 +206,9 @@ ul.lista-productos li p span{
     font-weight: bold;
     letter-spacing: 2px;
     transition: .3s all ease;
-    transform-style: preserve-3d;
+    
 }
 
-.boton:after {
- top: -100%;
- left: 0px;
- width: 100%;
- position: absolute;
- background: #3a9999;
- border-radius: 5px;
- content: 'Flipped';
- transform-origin: left bottom;
- transform: rotateX(90deg);
-}
-
-
-
-.boton:hover{
-   background-color: black;
-   transform-origin: center bottom;
-transform: rotateX(-90deg) translateY(100%);
-
-}
 
 .nosotros{
     border-radius: 5px;
