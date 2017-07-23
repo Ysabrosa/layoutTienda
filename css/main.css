@@ -172,13 +172,15 @@ ul.lista-productos li:nth child(2n+1){
 
 ul.lista-productos li img{
     border-radius: 5px;
-    border: 1px dashed #3399ff;
+    border: 1.5px dashed #3399ff;
     transition: .3s all ease;
+    cursor: pointer;
 
     }
 
 ul.lista-productos li img:hover{
-border:1.5px dashed #3399ff ;
+border:2.5px dashed #3399ff ;
+
 }
 
 ul.lista-productos li p{
@@ -194,13 +196,11 @@ ul.lista-productos li p span{
 }
 
 .boton{
-    
-    background-color:white;
-    border:1px solid #ff4d4d;
+    background-color:  #ff4d4d;
     padding: 10px 40px;
     display: inline-block;
     margin-top: 2%;
-    color: #ff4d4d;
+    color: white;
     border-radius: 3px;
     text-decoration: none;
     font-size: 20px;
@@ -212,9 +212,10 @@ ul.lista-productos li p span{
 }
 
 
+
+
 .boton:hover{
-   background-color: #ff4d4d;
-   color: white;
+   background-color: black;
    
 
 }
