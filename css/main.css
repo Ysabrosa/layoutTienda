@@ -162,6 +162,8 @@ ul.lista-productos li{
     width: 49%;
     padding: 20px;
     text-align: center;
+    font-family: 'Dosis', sans-serif;
+
 }
 
 ul.lista-productos li:nth child(2n+1){
@@ -182,7 +184,7 @@ border:2.3px dashed #3399ff ;
 }
 
 ul.lista-productos li p{
-    font-size:20px;
+    font-size: 30px;
     letter-spacing: 2px;
     margin-top: 1%;
 }
@@ -206,11 +208,7 @@ ul.lista-productos li p span{
     font-weight: bold;
     letter-spacing: 2px;
     transition: .3s all ease;
-    transform-style: preserve-3d;
-}
-
-
-
+    }
 
 .boton:hover{
    background-color: black;
