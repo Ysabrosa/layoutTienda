@@ -159,7 +159,7 @@ ul.lista-productos{
 
 ul.lista-productos li{
     float:left;
-    width: 50%;
+    width: 49%;
     padding: 20px;
     text-align: center;
 }
@@ -168,18 +168,16 @@ ul.lista-productos li:nth child(2n+1){
     clear: both;
 }
 
-
-
 ul.lista-productos li img{
     border-radius: 5px;
-    border: 1.5px dashed #3399ff;
+    border: 1.3px dashed #3399ff;
     transition: .3s all ease;
     cursor: pointer;
 
     }
 
 ul.lista-productos li img:hover{
-border:2.5px dashed #3399ff ;
+border:2.3px dashed #3399ff ;
 
 }
 
