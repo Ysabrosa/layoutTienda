@@ -182,6 +182,7 @@ border:2.1px dashed #3399ff ;
 }
 
 ul.lista-productos li p{
+    font-weight: lighter;
     font-size: 30px;
     letter-spacing: 2px;
     margin-top: 1%;
@@ -249,7 +250,7 @@ ul.lista-productos li p span{
 }
 
 header img{
-    width: 25   %;
+    width: 25%;
 }
 
 .contenedor{
